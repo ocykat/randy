@@ -1,0 +1,11 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtualenv
+Include/
+Lib/
+Scripts/
+tcl/
+pip-selfcheck.json
