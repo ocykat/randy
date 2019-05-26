@@ -9,3 +9,6 @@ Lib/
 Scripts/
 tcl/
 pip-selfcheck.json
+
+# main.py is used for testing
+main.py
