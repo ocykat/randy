@@ -18,14 +18,14 @@ class NameGenerator:
                 lname = line[:-1]
                 self.lnames.append(lname)
 
-        with open("dataset/female-first-names.txt", 'r') as f:
+        with open("dataset/female-names.txt", 'r') as f:
             for line in f:
-                fname = line[:-1]
+                fname = line[:-1].capitalize()
                 self.female_fnames.append(fname)
 
-        with open("dataset/male-first-names.txt", 'r') as f:
+        with open("dataset/male-names.txt", 'r') as f:
             for line in f:
-                fname = line[:-1]
+                fname = line[:-1].capitalize()
                 self.male_fnames.append(fname)
 
     def gen_fname(self, gender=None):
