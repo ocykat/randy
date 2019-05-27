@@ -39,6 +39,6 @@ class NameGenerator:
             index = random.randint(0, len(self.fnames) - 1)
             return self.fnames[index]
 
-    def gen_lname():
+    def gen_lname(self):
         index = random.randint(0, len(self.lnames) - 1)
         return self.lnames[index]
