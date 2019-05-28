@@ -9,6 +9,7 @@ Generate random data:
     - [x] Last names
 - [x] Dates
 - [x] Addresses
+- [x] Phone number
 
 Generic functionalities:
 - [x] Random shuffle
